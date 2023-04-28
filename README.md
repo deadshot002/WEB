@@ -1,3 +1,3 @@
 # WEB
 website:-
-https://deadshot002.github.io/LOKESH/
+https://deadshot002.github.io/WEB/
