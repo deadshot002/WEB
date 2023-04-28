@@ -1,0 +1,20 @@
+
+#nav{
+    display: block;
+}
+le
+#right {
+    display: inline;
+    justify-content: center;
+    top: 20px;
+
+}
+#ok {
+    /* display: inline; */
+    position: absolute;
+    
+}
+
+header{
+    height: 166px;
+}

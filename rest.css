@@ -1,0 +1,166 @@
+body {
+    font-family: 'Baloo 2', cursive;
+    padding: 1px;
+    margin: -2px;
+}
+#ok{
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+}
+
+#nav {
+    justify-self: center;
+}
+
+header {
+    position: fixed;
+    /* border: 2px solid black; */
+    margin: 1px;
+    padding: 1px;
+
+    background: white;
+    width: 100%;
+}
+
+
+#right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content {
+    /* border: 2px solid black; */
+    display: inline;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(73, 139, 180);
+}
+
+#left {
+    display: inline;
+    position: absolute;
+    left: 50px;
+    top: 7px;
+}
+
+
+
+#iteam-5 {
+    margin: 20px;
+    margin-right: 90px;
+}
+
+#id {
+    width: 30px;
+    border-radius: 20px;
+}
+
+#welcome {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-self: start;
+
+
+}
+
+#coking {
+    margin-top: 94.26px;
+    display: inline;
+    position: flex;
+    right: 10px;
+
+}
+
+#left-welcome {
+    /* display: inline; */
+
+    width: 448px;
+    height: 302px;
+    margin-top: 98.26px;
+    padding: 62px;
+    margin-bottom: 0px;
+    text-align: center;
+
+    /* border: 2px solid black; */
+    font-size: 50px;
+
+}
+
+i {
+    font-family: 'Splash', cursive;
+    font-size: 20px;
+}
+
+#aside #eat {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 968px;
+    width: 100%;
+}
+
+#eat::before {
+    background-image: url("https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWF0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1500&q=60");
+    content: "";
+    position: absolute;
+    height: 971px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+#para {
+    font-size: 25px;
+    margin: 102px;
+    margin-top: 24px;
+    margin-bottom: 31px;
+    width: 85%;
+    text-align: center;
+}
+
+div.content {
+color: white;
+    content: "";
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border:2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+section{
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/21/12/05/lightning-7401119_960_720.jpg");
+    content: "";
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+section {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
